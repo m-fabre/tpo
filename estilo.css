@@ -1,0 +1,173 @@
+*{
+    background-color: #f2efee;
+
+}
+header h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    color: #181817;
+}
+
+nav{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+nav a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #5f5955;
+    padding-right: 0.2em;
+}
+
+a:hover{
+    color: #cbc3bd;
+}
+
+a{
+    transition: color 0.3s linear 0.1s;
+}
+
+.title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    color: #5f5955;
+    text-align: center;
+}
+
+.title h2{ 
+    font-weight: 300; 
+    margin-bottom: 3%;
+    margin-top: 6%%;
+}
+
+h2:hover{
+    color: #cbc3bd;
+}
+
+h2{
+    transition: color 0.3s linear 0.1s;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    color: #5f5955;
+    text-align: left;
+
+}
+
+footer ul{
+    list-style: none;
+    padding:0px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: #5f5955;
+}
+
+#icon{    
+    padding-right: 1em;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+    grid-column-end: span 12;
+}
+
+nav{
+    grid-column-end: span 12;
+}
+
+footer{
+    grid-column-end: span 12;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: 1.5%;
+}
+
+main{
+    grid-column-end: span 12;
+    margin: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.info{
+    text-align: center;
+}
+
+.info p{
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    /* 1025- 1200px: desktops, large screens */
+    .container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 4.5em;
+    }
+
+    nav a{
+        font-size: 1.4em;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+/* 481- 768px: ipads, tablets */
+    .container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 4.1em;
+    }
+
+    nav a{
+        font-size: 1.2em;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px){ 
+/* 320- 480px: mobile devices */
+    .container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+   nav{
+       text-align: center;
+   }
+
+    nav a{
+        font-size: 1em;
+    }
+
+    img{
+        margin-top: 6%;
+    }
+}
